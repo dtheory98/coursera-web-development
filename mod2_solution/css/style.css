@@ -1,1 +1,29 @@
-"" 
+body h2 {
+	background-color: grey;
+	border: 2px solid black;
+}
+
+h2 div {
+	display: block;
+	width: 200px;
+	border: 2px solid black;
+	color: black;
+	text-align: center;
+	margin-top: -2px;
+	margin-left: 1127px;
+}
+
+p {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#chicken {
+	background-color: pink;
+}
+#beef {
+	background-color: red;
+}
+#mutton {
+	background-color: yellow;
+}
