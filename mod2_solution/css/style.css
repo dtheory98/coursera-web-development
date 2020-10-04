@@ -1,29 +1,66 @@
-body h2 {
-	background-color: grey;
-	border: 2px solid black;
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: wheat;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 120%;
 }
 
-h2 div {
-	display: block;
-	width: 200px;
-	border: 2px solid black;
-	color: black;
+h1 {
 	text-align: center;
-	margin-top: -2px;
-	margin-left: 1127px;
+	font-size: 210%;
+}
+
+
+#chicken {
+	background-color: #ff9966;
+}
+
+#beef {
+	background-color: #99e600;
+}
+
+#mutton {
+	background-color: #4da6ff;
+}
+
+#div1 {
+	background-color: #ff5500;
+}
+#div2 {
+	background-color: #77b300;
+}
+#div3 {
+	background-color: #0059b3;
+}
+div {
+	font-size: 60%;
+	font-weight: bold;
+	text-align: center;
+	padding-right: 2%;
+	margin-left: 65%;
+	margin-top: -0.5%;
+	margin-right: -0.7%;
+	border: 3px solid black;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+section {
+	border: 3px solid black;
+	text-align: right;
+	width: 31.5%;
+	float: left;
+	margin-right: 0.9%;
+	margin-left:0.9%;
+	font-size: 200%;
+	margin-top: 7%;
 }
 
 p {
-	margin-left: 15px;
-	margin-right: 15px;
-}
-
-#chicken {
-	background-color: pink;
-}
-#beef {
-	background-color: red;
-}
-#mutton {
-	background-color: yellow;
+	text-align: left;
+	font-size: 45%;
+	padding-left: 3%;
+	padding-right: 3%;
 }
