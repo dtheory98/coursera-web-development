@@ -40,14 +40,15 @@ div {
 	text-align: center;
 	padding-right: 2%;
 	margin-left: 65%;
-	margin-top: -0.5%;
-	margin-right: -0.7%;
+	margin-top: -0.9%;
+	margin-right: -0.8%;
 	border: 3px solid black;
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
 
 section {
+	box-sizing: border-box;
 	border: 3px solid black;
 	text-align: right;
 	width: 31.5%;
@@ -63,4 +64,28 @@ p {
 	font-size: 45%;
 	padding-left: 3%;
 	padding-right: 3%;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	div {
+		margin-right: -0.4%;
+	}
+
+	section {	
+		width: 48%;
+	}
+
+	#mutton {
+		width: 98%;
+	}
+}
+
+@media (max-width: 767px) {
+	div {
+		margin-right: -0.4%;
+		margin-top: -0.5%;
+	}
+
+	section {	
+		width: 98%;
+	}
 }
