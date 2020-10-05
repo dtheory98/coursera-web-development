@@ -76,6 +76,8 @@ p {
 
 	#mutton {
 		width: 98%;
+		margin-bottom: 7%;
+		margin-right: -0.3%;
 	}
 }
 
@@ -87,5 +89,10 @@ p {
 
 	section {	
 		width: 98%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	#mutton {
+		margin-bottom: 10%;
 	}
 }
