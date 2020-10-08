@@ -1,0 +1,24 @@
+body {
+	font-family: "Comic Sans MS", Arial, sans-serif;
+	background-color: #990000;
+	font-size: 16px;
+}
+
+h1{
+	color: #e6b800;
+}
+
+h2 {
+	background-color: #cc9900;
+	padding: 15px;
+	font-size: 16px;
+}
+div {
+	font-size: 150%;
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+
+p  {
+	color: black;
+}
