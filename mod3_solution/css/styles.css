@@ -4,16 +4,54 @@ body {
 	font-size: 16px;
 }
 
-h1{
-	color: #e6b800;
+#nav1 {
+	background-color: #cc9900;
+	border-radius: 0;
+	border: 0;
 }
+
+.navbar-brand a{
+	margin-top: 0px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	font-weight: bold;
+	color: green;
+	padding-top: 0px;
+	text-shadow: 1px 1px 1px #222;
+}
+
+#nav-list {
+	text-align: center;
+	background-color: #cca300;
+	color: #262673;
+}
+
+#collapsable-nav {
+	border: 0;
+	background-color: #cca300;
+}
+
+.container button.navbar-toggle, .collapsed .icon-bar {
+	background-color: #990000;
+ 	border: 1px solid #cc9900;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#h1{
+	color: #f6b319;
+}
+
 
 h2 {
 	background-color: #cc9900;
+	border-radius: 5px;
 	padding: 15px;
 	font-size: 16px;
 }
-div {
+
+#div1, #div2, #div3 {
 	font-size: 150%;
 	padding-bottom: 15px;
 	font-weight: bold;
@@ -22,3 +60,4 @@ div {
 p  {
 	color: black;
 }
+
